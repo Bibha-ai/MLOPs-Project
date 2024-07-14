@@ -8,20 +8,20 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 list_of_files = [
     ".github/workflows/.gitkeep",
     "src/__init__.py",
-    "src/components/__init__.py",  # Corrected from _init_ to __init__
+    "src/components/__init__.py", 
     "src/components/data_ingestion.py",
     "src/components/data_transformation.py",
     "src/components/model_trainer.py",
     "src/components/model_evaluation.py",
-    "src/pipeline/__init__.py",  # Corrected from _init_ to __init__
+    "src/pipeline/__init__.py",  
     "src/pipeline/training_pipeline.py",
     "src/pipeline/prediction_pipeline.py",
     "src/utils/__init__.py",
     "src/utils/utils.py",
     "src/logger/logging.py",
-    "src/exceptions/exception",  # Assuming this is the intended path
+    "src/exceptions/exception.py", 
     "test/unit/__init__.py",
-    "test/integration/__init__.py",  # Corrected from _init_ to __init__
+    "test/integration/__init__.py",  
     "init_setup.sh",
     "requirements.txt",
     "requirements_dev.txt",
